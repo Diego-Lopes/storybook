@@ -1,13 +1,14 @@
-import { Text } from './components/Text/Text'
+import { Envelope, Lock } from 'phosphor-react'
+import { Button } from './components/Button/Button'
+import { Checkbox } from './components/Checkbox/Checkbox'
+import { Heading } from './components/Heading/Heading'
+import { Signin } from './pages/Signin'
 import './styles/global.css'
 
 export function App() {
 
   return (
-   <>
-   <h1 className="font-bold text-2xl">Hello World</h1>
-   <Text />
-   </>
+   <Signin />
   )
 }
 
